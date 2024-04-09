@@ -12,3 +12,12 @@ def sumOfFloat(number_1, number_2):
     else:
         raise ValueError("Both inputs must be floating point numbers")
 
+def get_ascii_code(char):
+
+    return ord(char)
+
+
+def print_ascii_stream(sentence):
+    ascii_stream = [ord(char) for char in sentence]
+    for ascii_code in ascii_stream:
+        print(ascii_code, end=' ')
