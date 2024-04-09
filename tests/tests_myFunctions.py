@@ -1,5 +1,5 @@
 import pytest
-import Source.myFunctions as myFunctions
+import src.myFunctions as myFunctions
 
 
 def test_sum():
