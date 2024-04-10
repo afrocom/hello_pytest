@@ -1,0 +1,1 @@
+This README provides an overview of the project, the functions included in the Python script, the socket programming component, and the testing approach. It serves as a guide for users and contributors to understand the project and its functionalities.
