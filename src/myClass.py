@@ -1,4 +1,10 @@
+"""
+This file myClass.py is unnecessary however I included it separately in order to familiarize myself
+with testing class files differently as it is my first time working in #pytest
+"""
+
 import socket
+
 
 class GoogleConnector:
     def __init__(self):
@@ -14,5 +20,3 @@ class GoogleConnector:
 
     def close(self):
         self.client_socket.close()
-
-
